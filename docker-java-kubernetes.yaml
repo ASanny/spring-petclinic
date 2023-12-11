@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: server-service
-          image: sannysmile/docker-hub
+          image: sannysmile/spring-petclinic
           imagePullPolicy: Always
 ---
 apiVersion: v1
